@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Gear">
+		<classes>
+			<class name="com.runnerclass.GearRunnerClass"></class>
+		</classes>
+	</test>
+
+	<test name="Men">
+		<classes>
+			<class name="com.runnerclass.MenHoodiesRunnerClass"></class>
+		</classes>
+	</test>
+
+	<test name="MenJacket">
+		<classes>
+			<class name="com.runnerclass.MenJacketRunnerClass"></class>
+		</classes>
+	</test>
+
+	<test name="Women">
+		<classes>
+			<class name="com.runnerclass.WomenJacketRunnerClass"></class>
+		</classes>
+	</test>
+	
+</suite> <!--
+Suite -->
